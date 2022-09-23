@@ -16,6 +16,7 @@
 		A1E7033828DD118B008E8408 /* BookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7033728DD118B008E8408 /* BookListTableViewCell.swift */; };
 		A1E7033B28DD29EB008E8408 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7033A28DD29EB008E8408 /* BookDetailViewController.swift */; };
 		A1E7034028DD2C91008E8408 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7033F28DD2C91008E8408 /* Book.swift */; };
+		A1E7034328DD2F55008E8408 /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7034228DD2F55008E8408 /* BookController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A1E7033728DD118B008E8408 /* BookListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTableViewCell.swift; sourceTree = "<group>"; };
 		A1E7033A28DD29EB008E8408 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 		A1E7033F28DD2C91008E8408 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		A1E7034228DD2F55008E8408 /* BookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				A1E7033428DD072E008E8408 /* BookListTableViewController.swift */,
 				A1E7033A28DD29EB008E8408 /* BookDetailViewController.swift */,
+				A1E7034228DD2F55008E8408 /* BookController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				419B178227987EBC00423A18 /* SceneDelegate.swift in Sources */,
 				A1E7033528DD072E008E8408 /* BookListTableViewController.swift in Sources */,
 				A1E7033B28DD29EB008E8408 /* BookDetailViewController.swift in Sources */,
+				A1E7034328DD2F55008E8408 /* BookController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
