@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="HZU-j8-pec" customClass="BookListTableViewCell" customModule="BookStore" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="bookCell" id="HZU-j8-pec" customClass="BookListTableViewCell" customModule="BookStore" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="53.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HZU-j8-pec" id="s9Q-fH-pMg">
@@ -61,6 +61,12 @@
                                         <constraint firstItem="Pu5-li-TCj" firstAttribute="leading" secondItem="s9Q-fH-pMg" secondAttribute="leading" constant="2" id="jP9-WQ-mpK"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bookAuthorLabel" destination="Omi-fE-O4U" id="Skh-XQ-nUB"/>
+                                    <outlet property="bookRatingLabel" destination="We0-rL-69d" id="BKt-AC-3vk"/>
+                                    <outlet property="bookTitleLabel" destination="94o-P2-eR9" id="n3U-cn-5a5"/>
+                                    <segue destination="eGu-Ed-uNx" kind="show" identifier="toDetailVC" id="Pdy-RM-dlT"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -215,6 +221,9 @@
             <point key="canvasLocation" x="-34.782608695652179" y="-129.24107142857142"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Pdy-RM-dlT"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="photo" catalog="system" width="128" height="93"/>
         <systemColor name="labelColor">

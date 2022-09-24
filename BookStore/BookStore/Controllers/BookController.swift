@@ -32,5 +32,7 @@ class BookController {
         guard let indexOfBookToBeDeleted = book.firstIndex(of: bookToDelete) else {return}
         book.remove(at: indexOfBookToBeDeleted)
         
+        
+        
     }
 } // End of Class
